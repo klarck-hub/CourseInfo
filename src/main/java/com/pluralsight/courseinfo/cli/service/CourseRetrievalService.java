@@ -44,7 +44,7 @@ public class CourseRetrievalService {
     private static List<PluralsightCourse> toPluralsightCourses(HttpResponse<String> response) throws JsonProcessingException {
         JavaType returnType = OBJECT_MAPPER.
                 getTypeFactory().
-                constructType(List.class,PluralsightCourse.class);
+                constructCollectionType(List.class, PluralsightCourse.class);
         return OBJECT_MAPPER.readValue(response.body(), returnType);
     }
 }

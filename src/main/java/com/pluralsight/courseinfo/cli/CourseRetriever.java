@@ -8,6 +8,8 @@ import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 import java.util.List;
+import java.util.function.Predicate;
+import java.util.stream.Collectors;
 
 public class CourseRetriever {
 
@@ -31,7 +33,12 @@ public class CourseRetriever {
     private static void retrieveCourses(String authorId) throws IOException, InterruptedException {
         LOG.info("Retrieving courses from author '{}' " , authorId);
         CourseRetrievalService courseRetrievalService = new CourseRetrievalService();
-        List<PluralsightCourse> coursesToStore = courseRetrievalService.getCoursesFor(authorId);
+        List<PluralsightCourse> coursesToStore =
+                courseRetrievalService.getCoursesFor(authorId)
+                .stream()
+                .filter(Predicate.not(PluralsightCourse::isRetired))
+                .toList();
+
         LOG.info("Retrieved the following {} course {}",coursesToStore.size() , coursesToStore);
 
 
