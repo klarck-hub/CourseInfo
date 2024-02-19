@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d9e1665-faa3-48db-98c0-480725739a01" name="Changes" comment="tercer commit, concepto de Records y Object Mapper">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/pluralsight/courseinfo/cli/service/PluralsightCourseTest.java" afterDir="false" />
+    <list default="true" id="5d9e1665-faa3-48db-98c0-480725739a01" name="Changes" comment="cuarto commit, filtrando cursos y primeros test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/courseinfo/cli/CourseRetriever.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/courseinfo/cli/CourseRetriever.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/courseinfo/cli/service/CourseRetrievalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/courseinfo/cli/service/CourseRetrievalService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/courseinfo/cli/service/PluralsightCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/courseinfo/cli/service/PluralsightCourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/pluralsight/courseinfo/cli/service/PluralsightCourseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pluralsight/courseinfo/cli/service/PluralsightCourseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +85,7 @@
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean install" />
+      <command value="mvn clean test" />
     </option>
   </component>
   <component name="RunManager" selected="JUnit.PluralsightCourseTest">
@@ -207,7 +205,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708297223969</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="cuarto commit, filtrando cursos y primeros test">
+      <option name="closed" value="true" />
+      <created>1708358838021</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708358838021</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -224,7 +230,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="segundo commit, incluyendo funcionalidad de HttpClient para atacar una Api externa" />
     <MESSAGE value="tercer commit, concepto de Records y Object Mapper" />
-    <option name="LAST_COMMIT_MESSAGE" value="tercer commit, concepto de Records y Object Mapper" />
+    <MESSAGE value="cuarto commit, filtrando cursos y primeros test" />
+    <option name="LAST_COMMIT_MESSAGE" value="cuarto commit, filtrando cursos y primeros test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -241,7 +248,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/pluralsight/courseinfo/cli/service/PluralsightCourseTest.java</url>
-          <line>12</line>
+          <line>20</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>

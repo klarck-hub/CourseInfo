@@ -1,29 +1,25 @@
 package com.pluralsight.courseinfo.cli.service;
 
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvSource;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class PluralsightCourseTest {
 
-    @Test
-    void durationInMinutes() {
+
+    @ParameterizedTest
+    @CsvSource(textBlock = """
+            01:08:54.9613330, 68
+            00:05:37, 5
+            00:00:00.0, 0           
+            """)
+    void durationInMinutes(String input,  Long expected) {
         PluralsightCourse pluralsightCourse =
-                new PluralsightCourse("id","Test course","00:05:37", "url", false);
-        assertEquals(5,pluralsightCourse.durationInMinutes());
+                new PluralsightCourse("id","Test course",input, "url", false);
+        assertEquals(expected,pluralsightCourse.durationInMinutes());
     }
 
-    @Test
-    void durationInMinutesOverHour() {
-        PluralsightCourse pluralsightCourse =
-                new PluralsightCourse("id","Test course","01:08:54.9613330", "url", false);
-        assertEquals(68,pluralsightCourse.durationInMinutes());
-    }
 
-    @Test
-    void durationInMinuteZero() {
-        PluralsightCourse pluralsightCourse =
-                new PluralsightCourse("id","Test course","00:00:00", "url", false);
-        assertEquals(0,pluralsightCourse.durationInMinutes());
-    }
 }
