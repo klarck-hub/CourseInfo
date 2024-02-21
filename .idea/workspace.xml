@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d9e1665-faa3-48db-98c0-480725739a01" name="Changes" comment="quinto commit, test parametrizando parametros">
-      <change afterPath="$PROJECT_DIR$/course-info-cli/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-info-repository/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-info-cli/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/course-info-cli/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/courseinfo/cli/CourseRetriever.java" beforeDir="false" afterPath="$PROJECT_DIR$/course-info-cli/src/main/java/com/pluralsight/courseinfo/cli/CourseRetriever.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/courseinfo/cli/service/CourseRetrievalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/course-info-cli/src/main/java/com/pluralsight/courseinfo/cli/service/CourseRetrievalService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/courseinfo/cli/service/PluralsightCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/course-info-cli/src/main/java/com/pluralsight/courseinfo/cli/service/PluralsightCourse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pluralsight/courseinfo/cli/service/PluralsightCourseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/course-info-cli/src/test/java/com/pluralsight/courseinfo/cli/service/PluralsightCourseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +70,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "20",
-    "last_opened_file_path": "C:/Users/Klarc/IdeaProjects/Java17/course-info/course-info-cli/pom.xml",
+    "last_opened_file_path": "C:/Users/Klarc/IdeaProjects/Java17/course-info/course-info-cli",
     "onboarding.tips.debug.path": "C:/Users/Klarc/IdeaProjects/Java17/course-info/course-info-repository/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -100,8 +95,8 @@
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
-      <command value="mvn clean install" />
       <command value="mvn clean test" />
+      <command value="mvn clean install" />
     </option>
   </component>
   <component name="RunManager" selected="Application.CourseRetriever">
