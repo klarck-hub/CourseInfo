@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d9e1665-faa3-48db-98c0-480725739a01" name="Changes" comment="quinto commit, test parametrizando parametros">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-info-cli/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/course-info-cli/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5d9e1665-faa3-48db-98c0-480725739a01" name="Changes" comment="sexto commit, corrigiendo los poms" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -234,7 +228,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708359661808</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="sexto commit, corrigiendo los poms">
+      <option name="closed" value="true" />
+      <created>1708545591233</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708545591233</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -253,7 +255,8 @@
     <MESSAGE value="tercer commit, concepto de Records y Object Mapper" />
     <MESSAGE value="cuarto commit, filtrando cursos y primeros test" />
     <MESSAGE value="quinto commit, test parametrizando parametros" />
-    <option name="LAST_COMMIT_MESSAGE" value="quinto commit, test parametrizando parametros" />
+    <MESSAGE value="sexto commit, corrigiendo los poms" />
+    <option name="LAST_COMMIT_MESSAGE" value="sexto commit, corrigiendo los poms" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
